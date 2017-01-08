@@ -1,0 +1,22 @@
+{
+  "name": "dw-instant-npc",
+  "version": "1.0.0",
+  "description": "Dungeon World Instant NPC Helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodNovember/dw-instant-npc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoodNovember/dw-instant-npc/issues"
+  },
+  "homepage": "https://github.com/GoodNovember/dw-instant-npc#readme",
+  "dependencies": {
+    "angular-ui-router": "^1.0.0-beta.3"
+  }
+}

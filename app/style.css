@@ -1,0 +1,26 @@
+.person{
+	font-size: 2em;
+	/*font-family: sans-serif;*/
+	font-family: 'Fredoka One', sans-serif;
+	color: rgba(0,0,0,.55);
+	text-align: center;
+}
+.person .name{
+	color: green;
+	/*border-bottom: .1em dashed;*/
+}
+.person .knack{
+	color: blue;
+	/*border-bottom: .1em dashed;*/
+}
+
+.person .instinct{
+	color: red;
+	/*border-bottom: .1em dashed;*/
+}
+.center{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}

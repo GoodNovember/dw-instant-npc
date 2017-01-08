@@ -1,0 +1,10 @@
+<div ng-show="$ctrl.isReady">
+	<div class="person">
+		<div>Allow me to introduce you to <br><span class="name">{{$ctrl.givenName}}</span>,</div>
+		<div> they want <span class="instinct">{{$ctrl.givenInstinct | lowercase}}</span> <br><span class="knack-mod">{{$ctrl.givenKnackMod | lowercase}}</span><br> <span class="knack">{{$ctrl.givenKnack | lowercase}}</span>.</div>
+	</div>
+	<div class="center">
+		<button ng-click="$ctrl.compile()">Bring me someone else.</button>
+	</div>
+</div>
+<div ng-hide="$ctrl.isReady">Searching the area...</div>

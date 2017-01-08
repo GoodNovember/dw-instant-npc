@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Instant NPC</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="./bower_components/angular/angular.js"></script>
+		<script src="./node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+		<link rel="stylesheet" href="./app/style.css">
+	</head>
+	<body ng-app="app">
+		<main-app></main-app>
+		<div id="script-container">
+			<script src="./app/frameworks.js"></script>
+			<script src="./app/instincts.js"></script>
+			<script src="./app/knacks.js"></script>
+
+			<script src="./app/app.module.js"></script>
+			<script src="./app/app.config.js"></script>
+
+			<script src="./app/mainApp.component.js"></script>
+		</div>
+	</body>
+</html>
